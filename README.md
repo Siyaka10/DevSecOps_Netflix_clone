@@ -17,7 +17,7 @@
 
 # Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!
 
-**Step 1: Launch EC2 (Ubuntu 22.04):**
+Step 1: Launch EC2 (Ubuntu 22.04):
 
 - Provision an EC2 instance on AWS with Ubuntu 22.04.
 - Connect to the instance using SSH.
@@ -73,7 +73,7 @@ Now recreate the Docker image with your api key:
 docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
 ```
 
-**Phase 2: Security**
+**Phase 2: Security
 
 1. **Install SonarQube and Trivy:**
     - Install SonarQube and Trivy on the EC2 instance to scan for vulnerabilities.
